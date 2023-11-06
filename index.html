@@ -6,7 +6,7 @@ window.onload = function () {
   <script>
     document.getElementById('getPosition').addEventListener('click', onDeviceReady => {
       try {
-       cordova.exec(
+       window.cordova.exec(
             (data) => {
               window.alert("success")
             },
