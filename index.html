@@ -3,22 +3,24 @@ window.onload = function () {
   wrap.className += ' done';
 }</script>
   <button id="getFingerprint">测试cordova</button>
-  <script>
-    document.getElementById('getFingerprint').addEventListener('click', onDeviceReady => {
+   <script>
+    document.addEventListener('deviceready', onDeviceReady => {
+      document.getElementById('getFingerprint').addEventListener('click', function(){
       try {
-       window.cordova.exec(
-            (data) => {
-              window.alert("success")
-            },
-            (e) => {
-              window.alert("fail")
-            },
-            'FingerPrints',
-            'getFingerPrints'
+        window.cordova.exec(
+          (data) => {
+            window.alert("success")
+          },
+          (e) => {
+            window.alert("fail")
+          },
+          'FingerPrints',
+          'getFingerPrints'
         );
-    } catch (e) {
+      } catch (e) {
         // ... error handle
-    }
+      }
     }, false)
+    })
   </script>
 </body></html>
