@@ -94,8 +94,7 @@
     }</script>
   <button id="getFingerprint">测试cordova</button>
   <script>
-    document.addEventListener('deviceready', onDeviceReady => {
-      document.getElementById('getFingerprint').addEventListener('click', function(){
+document.getElementById('getFingerprint').addEventListener('click', function(){
       try {
         window.cordova.exec(
           (data) => {
@@ -108,10 +107,9 @@
           'getFingerPrints'
         );
       } catch (e) {
-        // ... error handle
+        console.log(e)
       }
     }, false)
-    })
   </script>
 </body>
 
