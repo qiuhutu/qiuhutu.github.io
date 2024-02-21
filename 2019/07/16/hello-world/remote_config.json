@@ -1,0 +1,47 @@
+{
+	"updateTimestamp": 1708246504,
+	"miniOSVersion": "9.12.5",
+	"minAndroidVersion": "9.12.5",
+	"remainingTime": "",
+	"maintenanceMode": {
+		"enabled": false,
+		"messages": {
+			"en": {
+				"title": "Maintenance Notice",
+				"message": "To better serve you, we will be carrying out maintenance of our digital services on 18th Feb (Sun).\nOn 18 Feb, from 3:00am to 8:00am, SC Mobile and Online Banking will not be available\n"
+			},
+			"zh": {
+				"title": "",
+				"message": ""
+			}
+		},
+		"startDate": "2024-02-18T03:12:00",
+		"endDate": "2024-02-18T08:00:00",
+		"redirectUrl": "https:\/\/www.sc.com\/sg\/"
+	},
+	"importantNotice": {
+		"enabled": true,
+		"messages": {
+			"en": {
+				"title": "Scam Alert :",
+				"message": "Beware of a phishing scam offering promotional Fixed Deposit rates via text messages. Always verify the authenticity of promotions on the SC Singapore website. We would never contact you using a +65 number, direct you to a personal mobile number or request you to transfer funds. Please do not disclose your personal particulars and OTP to anyone."
+			}
+		}
+	},
+    "forceUpgrade": [
+        {
+            "title-en": "Upgrade Required",
+            "message-en": "You're using an older version of SC Mobile. Please update your app now to enjoy the new standard of banking. Thank you for banking with Standard Chartered.\n<a>Tap here</a> to know minimum OS and device requirements.",
+            "title-zh": "需升级",
+            "message-zh": "您使用的是旧版本的渣打银行移动银行。请立即更新应用程序以采用本行的新业务标准。感谢您使用渣打银行。\n<a>点击此处</a>了解操作系统和设备的最低要求"
+        }
+    ],
+    "waitingRoom": [
+        {
+            "title-en": "Important Notice",
+            "message-en": "We are currently experiencing high traffic on SC Mobile, which may prevent you from successfully logging in. In the meantime, please visit sc.com/hk and try logging into Online Banking from there.\nApologies for any inconvenience caused.\nTo login Online Securities Trading, please use SC Equities or access via <a href=\"https://wealth.standardchartered.com.hk/ows-oe/foa/login.htm\">https://wealth.standardchartered.com.hk/ows-oe/foa/login.htm</a> for direct login.",
+            "title-zh": "重要提示",
+            "message-zh": "由於現時使用SC Mobile的人數較多，你暫時未能成功登入。你可到我們的網站 sc.com/hk 登入渣打網上理財。不便之處，敬請原諒。\n請用SC Equities或使用以下網址直接登錄股票交易服務:\n<a href=\"https://wealth.standardchartered.com.hk/ows-oe/foa/login.htm?lang=zh_HK\">https://wealth.standardchartered.com.hk/ows-oe/foa/login.htm?lang=zh_HK</a>。"
+        }
+    ]
+}
